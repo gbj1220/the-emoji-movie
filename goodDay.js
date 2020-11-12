@@ -6,9 +6,9 @@ console.log('Have a great day!')
 const testing = (() => {
   if (day[i] === undefined) {
     console.log('Tomorrows a new day!')
-    clearInterval(newInterval)
+    clearInterval(newInterval,)
   } else {
-    console.log(day[i])
+    console.log(day[i], console.clear(day[i]))
   } i--
 })
 
